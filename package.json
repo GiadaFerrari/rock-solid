@@ -1,0 +1,25 @@
+{
+    "name": "s",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+
+    "scripts": {
+        "start": "npm run sass:watch",
+        "sass": "node-sass css/global/global_styles.scss",
+        "sass:watch": "node-sass css/global/global_styles.scss --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GiadaFerrari/rock-solid.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GiadaFerrari/rock-solid/issues"
+    },
+    "homepage": "https://github.com/GiadaFerrari/rock-solid#readme",
+    "dependencies": {
+        "sass": "^1.20.1"
+    }
+}

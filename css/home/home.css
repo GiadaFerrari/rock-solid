@@ -1,2 +1,21 @@
+/* line 8, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+body button {
+  border-radius: 2px;
+  height: 38px;
+  font-family: sans-serif;
+  font-weight: 100;
+  border: solid 1px;
+  text-align: center;
+  min-width: 100px;
+  font-size: 14px; }
+  /* line 19, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+  body button.green {
+    background: #7ac931;
+    color: white; }
+  /* line 25, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+  body button.blue {
+    color: blue;
+    background: white;
+    border-color: blue; }
 
 /*# sourceMappingURL=home.css.map */
