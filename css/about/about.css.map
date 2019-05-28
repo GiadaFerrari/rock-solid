@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "about.css",
+  "sources": [
+    "about.scss",
+    "../global/global_styles.scss"
+  ],
+  "mappings": "",
+  "names": []
+}
