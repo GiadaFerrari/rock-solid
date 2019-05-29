@@ -64,18 +64,18 @@
             "desc": "Any tile project you have we can tackle. Call us for kitchen backsplash, bathrooms, tile flooring and tile mosaics.",
             "specialties": ["Tile Mosaic", "Kitchen backsplash", "Bathrooms"],
             "images": [{
-                    "src": "./img/powerwash.jpg",
-                    "alt": "powerwashing"
+                    "src": "./img/backsplash.jpg",
+                    "alt": "backsplash"
             }, {
-                    "src": "./img/powerwashing_logo.jpg",
-                    "alt": "powerwashing"
+                    "src": "./img/tile-work.jpg",
+                    "alt": "tile"
             }, {
-                    "src": "./img/rotted-wood.png",
-                    "alt": "rotted wood"
+                    "src": "./img/mosaic.jpg",
+                    "alt": "mosaic"
             },
                 {
-                    "src": "./img/shed.jpg",
-                    "alt": "shed"
+                    "src": "./img/bath.jpg",
+                    "alt": "bathroom"
             }]
         }
     ]
