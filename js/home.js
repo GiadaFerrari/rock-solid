@@ -4,6 +4,9 @@ $('[rel="more-services"]').click((e) => {
     let id = e.target.getAttribute('id')
     fetchContent(id);
     animateModal(1, 1)
+    scrollTo($('.modal'))
+
+
 })
 
 $('[rel="modal-close"]').click(() => {

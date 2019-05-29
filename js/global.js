@@ -36,3 +36,13 @@ function toggleIcon(height) {
     }
     return src
 }
+
+function scrollTo(elem) {
+    element = $(document).find(elem);
+    var offset = $(element).offset();
+    offset.top -= 100;
+    // console.log(offset)
+    $('html,body').animate({
+        scrollTop: offset.top,
+    });
+}

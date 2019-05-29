@@ -1,0 +1,44 @@
+@import '../global/_global_styles';
+
+main {
+
+    section {
+
+        .title {
+            line-height: 70px;
+        }
+
+        img {
+            max-width: 100%;
+
+        }
+
+        &.services {
+
+
+            .service {
+                cursor: pointer;
+
+                img {
+                    margin-bottom: -9px;
+                    margin-right: 10px;
+                }
+
+            }
+
+            .modal {
+                max-width: 83%;
+            }
+        }
+
+        &.estimate {
+            h2 {
+                line-height: 35px;
+            }
+
+            p {
+                margin: 15px 0;
+            }
+        }
+    }
+}
