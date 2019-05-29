@@ -62,16 +62,16 @@ body {
       /* line 78, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
       body nav ul a {
         text-decoration-line: none; }
-        /* line 82, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+        /* line 81, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
         body nav ul a li {
           color: white;
           height: 45px;
           list-style-type: none; }
-          /* line 88, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+          /* line 90, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
           body nav ul a li:hover, body nav ul a li.active {
             text-decoration: underline;
             text-underline-position: under; }
-    /* line 100, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    /* line 102, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
     body nav .burger {
       width: 50px;
       height: 40px;
