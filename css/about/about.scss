@@ -1,1 +1,157 @@
 @import '../global/_global_styles';
+
+body {
+
+
+    main {
+        section {
+            .title {
+                line-height: 70px;
+            }
+
+            &.story {
+
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            &.toGallery {
+                h2 {
+                    line-height: 35px;
+                }
+
+                p {
+                    margin: 15px 0;
+                }
+
+                a.toGallery {
+                    display: block;
+                    height: auto;
+                    position: relative;
+
+                    img {
+                        max-width: 100%;
+                        cursor: pointer;
+                    }
+
+                    span {
+                        position: absolute;
+                        display: flex;
+                        bottom: 20px;
+                        right: 20px;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 17px;
+
+                        img {
+                            margin-left: 10px;
+
+                        }
+                    }
+                }
+            }
+
+            &.reviews {
+                .carousel {
+                    display: flex;
+                    width: 100%;
+
+                    button {
+                        background: $green;
+                        width: 40px;
+                        height: 40px;
+                        color: white;
+                        min-width: 40px;
+                        z-index: 1;
+
+                        &.slick-prev {
+                            left: -15px
+                        }
+
+                        &.slick-next {
+                            right: 5px
+                        }
+                    }
+
+                    .review {
+
+                        background: $lightgrey;
+                        font-weight: 100;
+                        width: 100%;
+                        opacity: .6;
+                        padding: 25px;
+                        line-height: 20px;
+
+                        &.slick-current {
+                            width: 110%;
+                            opacity: 1;
+                        }
+
+                        p {
+                            color: $blue;
+
+                        }
+
+                        h6 {
+
+                            color: $blue;
+                            text-align: center;
+                            font-size: 18px;
+                            letter-spacing: .5px;
+                            margin: 10px auto;
+
+
+
+                        }
+                    }
+                }
+
+            }
+
+            &.contact {
+                .contact-info {
+                    display: flex;
+                    justify-content: space-between;
+
+                    img {
+                        max-width: 45%;
+                        height: auto;
+                    }
+
+                    .info {
+                        width: 45%;
+                    }
+
+                }
+
+                .contact-options {
+                    div {
+                        display: flex;
+                        min-height: 40px;
+                        justify-content: space-between;
+
+
+
+                        a button {
+                            height: 35px;
+                        }
+
+                        p {
+                            line-height: 65px;
+                        }
+
+                        &.mail {
+                            flex-wrap: wrap;
+
+                            p {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

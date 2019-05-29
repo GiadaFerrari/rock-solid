@@ -1,6 +1,7 @@
 $blue: #0B449A;
 $green:#7ac931;
 $grey: #7c7e7d;
+$lightgrey: #F4F4F4;
 
 @font-face {
     font-family: 'league_spartanbold';
@@ -160,6 +161,21 @@ body {
     main {
         width: 90%;
         margin: 100px auto;
+
+        section {
+            margin: 10px 0;
+
+            .title {
+                background: $blue;
+                color: white;
+                text-align: center;
+                width: 110%;
+                margin: 15px auto;
+                margin-left: -5%;
+                height: 70px;
+
+            }
+        }
 
 
     }
