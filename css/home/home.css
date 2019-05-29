@@ -78,5 +78,9 @@ body {
       position: absolute;
       top: 10px;
       right: 10px; }
+  /* line 115, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+  body main {
+    width: 90%;
+    margin: auto; }
 
 /*# sourceMappingURL=home.css.map */

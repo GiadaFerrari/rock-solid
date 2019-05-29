@@ -7,6 +7,7 @@ $(document).click(burger, () => {
     } else {
         animateMenu(0, 0)
     }
+    toggleIcon(height)
 
 })
 
@@ -24,4 +25,12 @@ function getHeight(elem) {
     height = $('[rel="menu"]').outerHeight()
     console.log(height)
     return height
+}
+
+function toggleIcon(height) {
+    if (height === 0) {
+        burger.attr('src', "./img/logo_tools.png")
+    } else {
+        burger.attr('src', "./img/logo_mountains.png")
+    }
 }
