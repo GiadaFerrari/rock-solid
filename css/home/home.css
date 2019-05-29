@@ -1,21 +1,82 @@
-/* line 8, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
-body button {
-  border-radius: 2px;
-  height: 38px;
-  font-family: sans-serif;
-  font-weight: 100;
-  border: solid 1px;
-  text-align: center;
-  min-width: 100px;
-  font-size: 14px; }
-  /* line 19, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
-  body button.green {
-    background: #7ac931;
-    color: white; }
-  /* line 25, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
-  body button.blue {
-    color: blue;
-    background: white;
-    border-color: blue; }
+@font-face {
+  font-family: 'league_spartanbold';
+  src: url("../fonts/leaguespartan-bold-webfont.woff2") format("woff2"), url("../fonts/leaguespartan-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 13, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 18, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+body {
+  font-family: sans-serif; }
+  /* line 21, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+  body h1 {
+    font-family: 'league_spartanbold', serif;
+    font-size: 20px;
+    text-transform: uppercase; }
+  /* line 27, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+  body button {
+    border-radius: 2px;
+    height: 38px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: solid 1px;
+    text-align: center;
+    min-width: 100px;
+    font-size: 14px; }
+    /* line 38, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    body button.green {
+      background: #7ac931;
+      color: white; }
+    /* line 44, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    body button.blue {
+      color: #0B449A;
+      background: white;
+      border-color: #0B449A; }
+  /* line 53, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+  body nav {
+    height: 70px;
+    color: white;
+    background: #0B449A;
+    width: 100%; }
+    /* line 59, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    body nav a.logo-link {
+      width: 60px;
+      height: 60px;
+      margin: 0; }
+      /* line 64, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+      body nav a.logo-link .logo {
+        width: 60px;
+        height: 60px;
+        margin: 4px 8px; }
+    /* line 71, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    body nav ul {
+      margin: -3px 0;
+      padding: 10px 0;
+      background: #0B449A;
+      width: 100%;
+      text-align: center; }
+      /* line 78, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+      body nav ul a {
+        text-decoration-line: none; }
+        /* line 82, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+        body nav ul a li {
+          color: white;
+          height: 45px;
+          list-style-type: none; }
+          /* line 88, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+          body nav ul a li:hover, body nav ul a li.active {
+            text-decoration: underline;
+            text-underline-position: under; }
+    /* line 100, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    body nav .burger {
+      width: 50px;
+      height: 40px;
+      position: absolute;
+      top: 10px;
+      right: 10px; }
 
 /*# sourceMappingURL=home.css.map */

@@ -1,9 +1,28 @@
-$blue: blue;
+$blue: #0B449A;
 $green:#7ac931;
 
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('../fonts/leaguespartan-bold-webfont.woff2') format('woff2'),
+        url('../fonts/leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
+    font-family: sans-serif;
+
+    h1 {
+        font-family: 'league_spartanbold', serif;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
 
     button {
         border-radius: 2px;
@@ -26,6 +45,66 @@ body {
             color: $blue;
             background: white;
             border-color: $blue;
+        }
+
+
+    }
+
+    nav {
+        height: 70px;
+        color: white;
+        background: $blue;
+        width: 100%;
+
+        a.logo-link {
+            width: 60px;
+            height: 60px;
+            margin: 0;
+
+            .logo {
+                width: 60px;
+                height: 60px;
+                margin: 4px 8px;
+            }
+        }
+
+        ul {
+            margin: -3px 0;
+            padding: 10px 0;
+            background: $blue;
+            width: 100%;
+            text-align: center;
+
+            a {
+                text-decoration-line: none;
+
+
+                li {
+                    color: white;
+
+                    height: 45px;
+                    list-style-type: none;
+
+                    &:hover,
+                    &.active {
+                        text-decoration: underline;
+                        text-underline-position: under;
+                    }
+
+
+                }
+            }
+
+        }
+
+        .burger {
+            width: 50px;
+            height: 40px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+
         }
 
 
