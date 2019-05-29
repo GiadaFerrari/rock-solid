@@ -1,0 +1,82 @@
+{
+    "services": [
+        {
+            "id": "exterior",
+            "work": "Exterior Work",
+            "desc": "Let us take care of your outdoors. From power washing your house to make it look like new, to replacing rotted wood, we know what your exterior needs.",
+            "specialties": ["Power washing", "Rotted Wood Repair", "Outer Deck Customisation"],
+            "images": [{
+                    "src": "./img/powerwash.jpg",
+                    "alt": "powerwashing"
+            }, {
+                    "src": "./img/powerwashing_logo.jpg",
+                    "alt": "powerwashing"
+            }, {
+                    "src": "./img/rotted-wood.png",
+                    "alt": "rotted wood"
+            },
+                {
+                    "src": "./img/shed.jpg",
+                    "alt": "shed"
+            }]
+        },
+        {
+            "id": "handyman",
+            "work": "Handyman",
+            "desc": "We have experiences and skills in furniture installation, hardware installation and minor house repairs.",
+            "specialties": ["Sheet-rock repairs", "Faulty stairs", "Hardware installation"],
+            "images": [{
+                    "src": "./img/powerwash.jpg",
+                    "alt": "powerwashing"
+            }, {
+                    "src": "./img/powerwashing_logo.jpg",
+                    "alt": "powerwashing"
+            }, {
+                    "src": "./img/rotted-wood.png",
+                    "alt": "rotted wood"
+            },
+                {
+                    "src": "./img/shed.jpg",
+                    "alt": "shed"
+            }]
+        }, {
+            "id": "carpentry",
+            "work": "Custom Carpentry",
+            "desc": "Need a customised solution? Call us to get an estimate for custom crown moldings and trims, radiator covers made to measure and much more.",
+            "specialties": ["Bookshelves", "Custom built ins", "Radiator Covers"],
+            "images": [{
+                    "src": "./img/builtin.jpg",
+                    "alt": "built in"
+            }, {
+                    "src": "./img/radiator.jpg",
+                    "alt": "radiator"
+            }, {
+                    "src": "./img/shed.jpg",
+                    "alt": "shed"
+            }, {
+                    "src": "./img/bookshelf.jpg",
+                    "alt": "bookshelf"
+            }
+        ]
+        }, {
+            "id": "tile",
+            "work": "Tile Work",
+            "desc": "Any tile project you have we can tackle. Call us for kitchen backsplash, bathrooms, tile flooring and tile mosaics.",
+            "specialties": ["Tile Mosaic", "Kitchen backsplash", "Bathrooms"],
+            "images": [{
+                    "src": "./img/powerwash.jpg",
+                    "alt": "powerwashing"
+            }, {
+                    "src": "./img/powerwashing_logo.jpg",
+                    "alt": "powerwashing"
+            }, {
+                    "src": "./img/rotted-wood.png",
+                    "alt": "rotted wood"
+            },
+                {
+                    "src": "./img/shed.jpg",
+                    "alt": "shed"
+            }]
+        }
+    ]
+}

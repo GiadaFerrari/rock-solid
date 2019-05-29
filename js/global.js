@@ -1,13 +1,13 @@
 let burger = $('[rel="burger"]')
 
-$(document).click(burger, () => {
+$(burger).click(() => {
     let height = getHeight($('[rel="menu"]'))
     if (height === 0) {
         animateMenu(180, 10)
     } else {
         animateMenu(0, 0)
     }
-    toggleIcon(height)
+    burger.attr('src', toggleIcon(height))
 
 })
 
@@ -28,9 +28,11 @@ function getHeight(elem) {
 }
 
 function toggleIcon(height) {
+    let src;
     if (height === 0) {
-        burger.attr('src', "./img/logo_tools.png")
+        src = "./img/close.svg"
     } else {
-        burger.attr('src', "./img/logo_mountains.png")
+        src = "./img/burger.svg"
     }
+    return src
 }
