@@ -1,0 +1,26 @@
+@import '../global/_global_styles';
+
+main {
+    section {
+        position: relative;
+
+        img {
+            max-width: 100%;
+
+        }
+
+        div {
+            position: absolute;
+            background: $blue;
+            height: 70px;
+            color: white;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            font-size: 16px;
+            bottom: 0;
+            left: 0;
+            width: 88%;
+            line-height: 50px;
+        }
+    }
+}
