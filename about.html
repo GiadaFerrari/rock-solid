@@ -34,6 +34,8 @@
                     <li>Gallery</li>
                 </a>
 
+                <a class="desktop tel" href="tel: 1-914-282-9430">(914) 282-9430</a>
+
             </ul><img class="burger" rel="burger" src="./img/burger.svg" alt="burger-menu">
 
         </nav>
@@ -41,22 +43,29 @@
 
     <main>
         <section class="story">
-            <img src="./img/powerwashing_logo.jpg" alt="working">
-            <h1>OUR STORY</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="imgContainer"> <img src="./img/powerwashing_logo.jpg" alt="working"></div>
+            <div>
+                <h1>OUR STORY</h1>
+                <img class="desktop logo" src="./img/logo_mountains.png" alt="logo">
+                <h2 class="desktop">Fixing Wetchester one house at a time</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            </div>
         </section>
         <section class="toGallery">
             <div class="title">Quick & easy project estimation</div>
-            <h2>We help you transform your house into a home</h2>
-            <p>We use our years of experience and handyman expertise to physically change the perception of your home.We guarantee your satisfaction by providing personalised, unique and upscale home upgrades.</p>
-            <p>Your ideas are important so we listen and provide you with our professional guidance to ensure the highest quality and outstanding results. Want to learn more about out work? View our gallery and read out customer reviews.</p>
+            <h2><span class="mobile">We help you transform your house into a home</span><span class="desktop">Our mission is to help you transform your house into a home</span></h2>
+            <div class="flex">
+                <p>We use our years of experience and handyman expertise to physically change the perception of your home.We guarantee your satisfaction by providing personalised, unique and upscale home upgrades.</p>
+                <p>Your ideas are important so we listen and provide you with our professional guidance to ensure the highest quality and outstanding results. Want to learn more about out work? View our gallery and read out customer reviews.</p>
+            </div>
             <a href="/gallery.html" class="toGallery">
-                <img src="./img/bedroom.jpg" alt="bedroom"><span class="toGallery">VIEW GALLERY <img src="./img/togallery.svg" alt=""></span>
+                <img class="desktop kitchen" src="./img/long_kitchen.jpg" alt="kitchen">
+                <img class="bedroom" src="./img/bedroom.jpg" alt="bedroom"><span class="toGallery">VIEW GALLERY <img src="./img/togallery.svg" alt="gallery"></span>
             </a>
         </section>
         <section class="reviews">
             <div class="title">
-                What our client say about us
+                What our clients say about us
             </div>
             <div class="carousel">
                 <div class="review">
@@ -77,7 +86,9 @@
         <section class="contact">
             <div class="title">Contact Us</div>
             <div class="contact-info">
-                <img src="./img/map.png" alt="map">
+
+                <div class="imgContainer">
+                    <img src="./img/westchester.png" alt="map"></div>
                 <div class="info">
                     <div class="address">
                         <h2>Address</h2>
@@ -90,10 +101,22 @@
                         <p>Available 24/7
                             7 days/week</p>
                     </div>
+                    <div class="desktop contact-options">
+                        <h2>Contact </h2>
+
+                        <div class="call">
+                            <a href="tel: 1-914-282-9430" class="tel"> <button class="green">Call Us</button></a>
+
+                            <p>1 (914) 282 - 9430</p>
+                        </div>
+                        <div class="mail"><a href="email:rocksolidhomeimprovement@gmail.com"><button class="green">Email Us</button></a>
+                            <p>rocksolidhomeimprovement@gmail.com</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <h2>Contact </h2>
-            <div class="contact-options">
+            <div class="contact-options mobile">
+                <h2>Contact </h2>
 
                 <div class="call">
                     <a href="tel: 1-914-282-9430" class="tel"> <button class="green">Call Us</button></a>

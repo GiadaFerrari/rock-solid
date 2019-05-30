@@ -24,6 +24,12 @@ body {
         display: none;
     }
 
+    .mobile {
+        display: block;
+    }
+
+
+
     h1 {
         font-family: 'league_spartanbold', sans-serif;
         font-size: 32px;
@@ -364,6 +370,16 @@ body {
 
 @media (min-width:700px) {
     body main {
+        max-width: 1300px;
+
+        .desktop {
+            display: block;
+        }
+
+        .mobile {
+            display: none;
+        }
+
         section.services {
             .modal {
                 position: absolute;

@@ -115,9 +115,13 @@ body {
                     display: flex;
                     justify-content: space-between;
 
-                    img {
-                        max-width: 45%;
+                    .imgContainer {
+                        max-width: 50%;
                         height: auto;
+
+                        img {
+                            width: 100%;
+                        }
                     }
 
                     .info {
@@ -127,6 +131,8 @@ body {
                 }
 
                 .contact-options {
+                    max-width: 500px;
+
                     div {
                         display: flex;
                         min-height: 40px;
@@ -151,6 +157,256 @@ body {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (min-width:600px) {
+    body {
+        main section {
+
+            .mobile {
+                display: none;
+            }
+
+            &.story {
+
+
+
+                div .logo {
+                    max-width: 170px;
+                    margin: auto;
+                }
+
+                h2 {
+                    line-height: 35px;
+                }
+
+                .imgContainer {
+
+                    display: none;
+
+                }
+
+                button {
+                    margin-top: 10%;
+                    float: right;
+                }
+
+                a {
+                    display: block;
+                    height: 60px;
+                }
+            }
+
+            &.toGallery {
+                h2 {
+                    max-width: 60%;
+                    margin: 20px auto;
+                    text-align-last: center;
+                }
+
+                .flex {
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 80%;
+                    margin: auto;
+
+                    p {
+                        margin: 30px 20px;
+                    }
+                }
+
+                a.toGallery {
+                    display: flex;
+                    height: 30vw;
+                    max-height: 310px;
+
+                    .kitchen {
+                        width: 70%;
+                    }
+
+                    .bedroom {
+                        width: 30%;
+                    }
+                }
+            }
+
+
+            &.reviews {
+                .carousel {
+                    display: flex;
+                    width: 60%;
+                    margin: 35px auto;
+
+                    button {
+                        background: $green;
+                        width: 40px;
+                        height: 40px;
+                        color: white;
+                        min-width: 40px;
+                        z-index: 1;
+
+                        &.slick-prev {
+                            left: -15px
+                        }
+
+                        &.slick-next {
+                            right: 5px
+                        }
+                    }
+
+                    .review {
+                        min-height: 300px;
+                        background: $lightgrey;
+                        font-weight: 100;
+                        width: 50%;
+                        opacity: .6;
+                        padding: 80px 25px 0;
+                        line-height: 30px;
+                        margin: 25px auto;
+                        text-align: center;
+
+
+                        &.slick-current {
+                            width: 110%;
+                            opacity: 1;
+                            height: 350px;
+                            margin: 0 auto;
+                        }
+
+                        p {
+                            color: $blue;
+
+                        }
+
+                        h6 {
+
+                            color: $blue;
+                            text-align: center;
+                            font-size: 18px;
+                            letter-spacing: .5px;
+                            margin: 30px auto;
+
+
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (min-width:800px) {
+    body {
+        main section {
+            &.story {
+                display: flex;
+                justify-content: space-between;
+
+
+                .imgContainer {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 5%;
+                    overflow: hidden;
+                    width: 216%;
+                    max-height: 60vh;
+                    max-width: 550px;
+                    /* width: 60vw; */
+                    min-height: 327px;
+                    min-width: 440px;
+
+                    img {
+                        max-width: 150%;
+                        max-height: 100%;
+
+                        width: auto;
+
+
+                    }
+                }
+
+                button {
+                    margin-top: 10%;
+                    float: right;
+                }
+
+                a {
+                    display: block;
+                    height: 60px;
+                }
+            }
+
+            &.toGallery {
+
+
+                a.toGallery {
+                    max-width: 1000px;
+                    margin: auto;
+                    display: flex;
+                    height: 35vh;
+
+                    .kitchen {
+                        width: 70%;
+                    }
+
+                    .bedroom {
+                        width: 30%;
+                    }
+                }
+            }
+
+            &.contact {
+                position: relative;
+
+                .contact-info {
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 800px;
+                    margin: auto;
+
+                    .imgContainer {
+                        max-width: 50%;
+                        height: auto;
+                        text-align: right;
+
+
+                        img {
+                            width: 100%;
+                            max-with: 350px
+                        }
+                    }
+
+                    .info {
+                        width: 45%;
+                    }
+
+
+
+                    .contact-options {
+
+                        .call,
+                        .mail {
+                            display: flex;
+                            justify-content: flex-start;
+
+                            a {
+                                margin-right: 20px;
+                            }
+
+                            p {
+                                width: 50%;
+                            }
+                        }
+
+                    }
+                }
+
+
             }
         }
     }
