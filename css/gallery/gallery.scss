@@ -25,6 +25,9 @@ main {
 
 
         &.gallery {
+            opacity: 0;
+            z-index: 0;
+
             position: relative;
             background: white;
             border: 1px solid $grey;
@@ -56,6 +59,10 @@ main {
                 flex-wrap: wrap;
                 max-width: 88%;
                 margin: 0 auto;
+
+                &.desktop {
+                    display: none
+                }
 
                 .imgContainer {
                     max-width: 48%;
@@ -111,10 +118,43 @@ main {
                 width: 100%;
                 border: none;
                 box-shadow: none;
+                min-height: 800px;
+
+                opacity: 1;
+                z-index: 10;
 
                 .close {
                     display: none;
                 }
+
+                .align_left {
+                    max-width: 40%;
+                    margin-right: 20px;
+                    float: left;
+                }
+
+
+
+                .before_after {
+                    max-width: 60%;
+                    margin: 20px;
+                }
+
+
+                .images {
+                    &.mobile {
+                        display: none;
+                    }
+
+                    &.desktop {
+                        display: flex;
+                    }
+
+                    max-width: 100%;
+
+                }
+
+
 
 
             }

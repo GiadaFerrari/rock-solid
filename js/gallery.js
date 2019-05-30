@@ -2,6 +2,7 @@ url = './json/gallery.json'
 
 $(window).on('load', () => {
     $(".before_after").twentytwenty();
+    fetchContent('bedroom');
 })
 
 
@@ -13,26 +14,30 @@ $('[rel="gallery-link"]').click((e) => {
     console.log(e.target)
     console.log(id)
     fetchContent(id);
-    animateModal(-10)
+    animateModal(-10, 1)
     scrollTo($('[rel="gallery"]'))
 })
 
 
 $('[rel="modal-close"]').click(() => {
-    animateModal(-1100)
+    animateModal(-1100, 0)
     emptyModal()
 })
 
 
-function animateModal(position, index) {
+function animateModal(position, opacity) {
+    $('.gallery').css('opacity', opacity)
+    $('.gallery').css('z-index', opacity)
+
     $('.gallery').animate({
-        'top': position
+        'top': position,
+
     }, 1500)
 }
 
 function fetchContent(id) {
     console.log(id)
-
+    emptyModal()
     fetch(url)
         .then(response => {
             if (response.ok) {
@@ -56,7 +61,7 @@ function fetchContent(id) {
 
 function fillInModal(content) {
     let modal = document.querySelector('[rel="gallery"]');
-    let imageContainer = modal.querySelector('.images')
+    let imageContainer = modal.querySelectorAll('.images')
     modal.querySelector('h1').textContent = content.work;
     modal.querySelector('p').textContent = content.desc;
     modal.querySelector('[rel="bfr"]').setAttribute('src', content.main.after)
@@ -66,9 +71,13 @@ function fillInModal(content) {
 
     for (let img in content.images) {
         let image = content.images[img];
-        $(imageContainer).append(`
+        imageContainer.forEach((imgC) => {
+
+            $(imgC).append(`
  <div class="imgContainer">
                         <img src="${image.src}" alt="${image.alt}"></div>`)
+        })
+
 
     }
 
@@ -76,9 +85,11 @@ function fillInModal(content) {
 
 function emptyModal() {
     let modal = document.querySelector('[rel="gallery"]');
-    let imageContainer = document.querySelector('.images')
+    let imageContainer = document.querySelectorAll('.images')
+    imageContainer.forEach(imgC => {
+        $(imgC).html("");
+    })
 
-    $(imageContainer).html("");
     modal.querySelector('h1').textContent = "";
     modal.querySelector('p').textContent = "";
 
