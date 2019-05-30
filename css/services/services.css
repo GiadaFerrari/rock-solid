@@ -283,7 +283,7 @@ body {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      height: 68%; }
+      min-height: 68%; }
       /* line 393, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
       body main section.services .modal .close {
         width: 100%; }
@@ -328,5 +328,101 @@ main section.estimate h2 {
 /* line 39, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
 main section.estimate p {
   margin: 15px 0; }
+
+@media (min-width: 600px) {
+  /* line 51, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services .modal {
+    left: 5%; }
+  /* line 56, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services .servicesOffered {
+    width: 70%;
+    margin: auto; }
+  /* line 61, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services h1 {
+    text-align: center; }
+  /* line 65, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services h2 {
+    line-height: 35px;
+    margin: 30px 0; }
+  /* line 70, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services .imgContainer {
+    display: none; }
+  /* line 78, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services button {
+    margin-top: 10%;
+    float: right; }
+  /* line 83, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services a {
+    display: block;
+    height: 60px; }
+  /* line 89, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services .modal .images .imgContainer {
+    display: block;
+    height: 50%;
+    width: 45%;
+    min-width: 100px;
+    min-height: 100px; }
+  /* line 102, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.estimate h2 {
+    max-width: 40%;
+    min-width: 400px;
+    margin: 20px auto;
+    text-align-last: center; }
+  /* line 109, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.estimate .flex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto; }
+    /* line 115, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+    main section.estimate .flex p {
+      margin: 30px 20px; }
+  /* line 120, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.estimate a {
+    display: block;
+    margin: auto;
+    width: 200px;
+    text-align: center; }
+  /* line 127, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.estimate .flex_img {
+    display: flex;
+    justify-content: center; }
+    /* line 131, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+    main section.estimate .flex_img img {
+      height: 400px;
+      margin: 30px 20px; } }
+
+@media (min-width: 800px) {
+  /* line 145, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+  main section.services {
+    display: flex;
+    justify-content: space-between; }
+    /* line 151, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+    main section.services h1 {
+      text-align: left; }
+    /* line 155, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+    main section.services .imgContainer {
+      display: flex;
+      justify-content: center;
+      margin-right: 5%;
+      overflow: hidden;
+      width: 100%;
+      max-height: 60vh;
+      max-width: 500px;
+      min-height: 500px;
+      min-width: 300px; }
+      /* line 166, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+      main section.services .imgContainer img {
+        width: 100%;
+        max-height: 150%;
+        width: auto; }
+    /* line 176, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+    main section.services button {
+      margin-top: 10%;
+      float: right; }
+    /* line 181, /Users/giadaferrari/Desktop/rock_solid/css/services/services.scss */
+    main section.services a {
+      display: block;
+      height: 60px; } }
 
 /*# sourceMappingURL=services.css.map */

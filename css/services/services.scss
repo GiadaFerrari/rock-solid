@@ -42,3 +42,148 @@ main {
         }
     }
 }
+
+@media (min-width:600px) {
+    main {
+        section {
+            &.services {
+
+                .modal {
+                    left: 5%;
+
+                }
+
+                .servicesOffered {
+                    width: 70%;
+                    margin: auto;
+                }
+
+                h1 {
+                    text-align: center;
+                }
+
+                h2 {
+                    line-height: 35px;
+                    margin: 30px 0;
+                }
+
+                .imgContainer {
+
+                    display: none;
+
+                }
+
+
+
+                button {
+                    margin-top: 10%;
+                    float: right;
+                }
+
+                a {
+                    display: block;
+                    height: 60px;
+                }
+
+                .modal {
+                    .images .imgContainer {
+                        display: block;
+                        height: 50%;
+                        width: 45%;
+                        min-width: 100px;
+                        min-height: 100px;
+
+                    }
+                }
+            }
+
+            &.estimate {
+
+                h2 {
+                    max-width: 40%;
+                    min-width: 400px;
+                    margin: 20px auto;
+                    text-align-last: center;
+                }
+
+                .flex {
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 80%;
+                    margin: auto;
+
+                    p {
+                        margin: 30px 20px;
+                    }
+                }
+
+                a {
+                    display: block;
+                    margin: auto;
+                    width: 200px;
+                    text-align: center;
+                }
+
+                .flex_img {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        height: 400px;
+                        margin: 30px 20px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (min-width:800px) {
+    main {
+        section {
+            &.services {
+
+
+                display: flex;
+                justify-content: space-between;
+
+                h1 {
+                    text-align: left;
+                }
+
+                .imgContainer {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 5%;
+                    overflow: hidden;
+                    width: 100%;
+                    max-height: 60vh;
+                    max-width: 500px;
+                    min-height: 500px;
+                    min-width: 300px;
+
+                    img {
+                        width: 100%;
+                        max-height: 150%;
+
+                        width: auto;
+
+
+                    }
+                }
+
+                button {
+                    margin-top: 10%;
+                    float: right;
+                }
+
+                a {
+                    display: block;
+                    height: 60px;
+                }
+            }
+        }
+    }
+
+}

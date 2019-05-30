@@ -283,7 +283,7 @@ body {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      height: 68%; }
+      min-height: 68%; }
       /* line 393, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
       body main section.services .modal .close {
         width: 100%; }
