@@ -285,7 +285,11 @@ body {
 
 
 @media (min-width:600px) {
+
+
     body {
+        margin-top: 100px;
+
         h1 {
             font-size: 40px;
         }
@@ -342,7 +346,7 @@ body {
                         border-radius: 5px;
                         background: white;
                         color: $blue;
-                        height: 20px;
+                        height: 30px;
                         padding: 5px 10px;
                         margin: 20px 10px;
                         line-height: 20px;

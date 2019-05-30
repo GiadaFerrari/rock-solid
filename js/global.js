@@ -11,6 +11,7 @@ $(burger).click(() => {
 
 })
 
+
 function animateMenu(height, padding) {
     $('[rel="menu"]').animate({
         'height': height,

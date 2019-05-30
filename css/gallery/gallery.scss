@@ -71,3 +71,54 @@ main {
         }
     }
 }
+
+
+@media (min-width:700px) {
+    main {
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+
+            section {
+                width: 40%;
+
+
+            }
+
+            .flex {
+                display: flex;
+                justify-content: space-between;
+                width: 58%;
+                flex-wrap: wrap;
+
+
+                section {
+                    width: 49%;
+
+                    &:first-of-type {
+                        width: 100%;
+                    }
+
+                }
+            }
+        }
+
+        section {
+
+            &.gallery {
+                position: static;
+                width: 100%;
+                border: none;
+                box-shadow: none;
+
+                .close {
+                    display: none;
+                }
+
+
+            }
+        }
+    }
+
+}

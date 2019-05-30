@@ -1,4 +1,4 @@
-let url = './json/gallery.json'
+url = './json/gallery.json'
 
 $(window).on('load', () => {
     $(".before_after").twentytwenty();
