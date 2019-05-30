@@ -9,7 +9,7 @@ main {
 
         }
 
-        div {
+        div.title_gallery {
             position: absolute;
             background: $blue;
             height: 70px;
@@ -19,8 +19,55 @@ main {
             font-size: 16px;
             bottom: 0;
             left: 0;
-            width: 88%;
+            width: 100%;
             line-height: 50px;
+        }
+
+
+        &.gallery {
+            position: relative;
+            background: white;
+            border: 1px solid $grey;
+            position: absolute;
+            top: -1100px;
+            padding: 15px;
+            width: 90%;
+            -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.07);
+            -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.07);
+            box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.07);
+
+
+            .close {
+                max-width: 20px;
+                float: right;
+                margin: 5px;
+                margin-left: 90%;
+
+            }
+
+            .before_after {
+                max-width: 88%;
+                margin: 20px auto;
+            }
+
+            .images {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                max-width: 88%;
+                margin: 0 auto;
+
+                .imgContainer {
+                    max-width: 48%;
+
+                    height: auto;
+                    margin: 10px 0;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
         }
     }
 }

@@ -5,8 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+
     <link rel="stylesheet" href="./css/gallery/gallery.css">
+    <link rel="stylesheet" href="./libraries/twentytwenty-master/css/foundation.css">
+    <link rel="stylesheet" href="./libraries/twentytwenty-master/css/twentytwenty.css">
     <script src="./libraries/jquery.min.js"></script>
+    <script src="./libraries/twentytwenty-master/js/jquery.twentytwenty.js"></script>
+    <script src="./libraries/twentytwenty-master/js/jquery.event.move.js"></script>
 
 </head>
 
@@ -35,19 +40,43 @@
     </header>
 
     <main>
-        <section class="bathroom"><img src="./img/tile-work.jpg" alt="tile work">
-            <div>Bathroom & Tile Work</div>
+        <section id="bathroom" class="bathroom" rel="gallery-link"><img src="./img/tile-work.jpg" alt="tile work">
+            <div class="title_gallery">Bathroom & Tile Work</div>
         </section>
-        <section class="floor"><img src="./img/floor.jpg" alt="floor work">
-            <div>Floor Installation</div>
+        <section id="floor" class="floor" rel="gallery-link"><img src="./img/floor.jpg" alt="floor work">
+            <div class="title_gallery">Floor Installation</div>
         </section>
-        <section class="bedroom"><img src="./img/bedroom.jpg" alt="bedroom work">
-            <div>Bedroom Remodel</div>
+        <section id="bedroom" class="bedroom" rel="gallery-link"><img src="./img/bedroom.jpg" alt="bedroom work">
+            <div class="title_gallery">Bedroom Remodel</div>
         </section>
-        <section class="exterior"><img src="./img/powerwashing_logo.jpg" alt="exterior work">
-            <div>Exterior Work</div>
+        <section id="exterior" class="exterior" rel="gallery-link"><img src="./img/powerwashing_logo.jpg" alt="exterior work">
+            <div class="title_gallery">Exterior Work</div>
         </section>
+        <section class="gallery" rel="gallery">
+            <img class="close" rel="modal-close" src="./img/close-grey.svg" alt="close">
+            <h1 class="capitalized">Bathroom & Tile Work</h1>
+            <h2>Step by Step Overview</h2>
+            <p>Adding fresh white paint to the walls and ceiling. Replacing old vynil floor for marble looing porcelain tiles.
+                Installing customized shelves above the toilet. Upgrading bathroom vanity from single to a double sink.
+            </p>
+
+            <div class="before_after twentytwenty-container">
+                <img rel="bfr" src="./img/floor_before.jpg" alt="before">
+                <img rel="aft" src="./img/floor_after.jpg" alt="after">
+            </div>
+            <div class="images">
+
+
+
+            </div>
+
+            <a href="tel:19142829430"><button class="green">Call for Estimate</button></a>
+        </section>
+
     </main>
+
+
+
 
     <footer>
         <a href="tel: 1-914-282-9430" class="tel">(914) 282-9430</a>

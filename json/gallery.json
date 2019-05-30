@@ -1,0 +1,93 @@
+{
+    "services": [
+        {
+            "id": "exterior",
+            "work": "Exterior Work",
+            "desc": "Let us take care of your outdoors. From power washing your house to make it look like new, to replacing rotted wood, we know what your exterior needs.",
+            "main": {
+                "before": "./img/powerwash-patio_before.jpeg",
+                "after": "./img/powerwash-patio_after.jpeg"
+            },
+            "main": {
+                "before": "./img/powerwash-patio_before.jpeg",
+                "after": "./img/powerwash-patio_after.jpeg"
+            },
+            "images": [{
+                    "src": "./img/powerwash.jpg",
+                    "alt": "powerwashing"
+            }, {
+                    "src": "./img/powerwashing_logo.jpg",
+                    "alt": "powerwashing"
+            }, {
+                    "src": "./img/rotted-wood.png",
+                    "alt": "rotted wood"
+            },
+                {
+                    "src": "./img/shed.jpg",
+                    "alt": "shed"
+            }]
+        },
+
+        {
+            "id": "floor",
+            "work": "Floor Installation",
+            "desc": "We have experiences and skills in pre-finished installation, tile floors and more.",
+            "main": {
+                "before": "./img/floor_before.jpg",
+                "after": "./img/floor_after.jpg"
+            },
+            "images": [{
+                "src": "./img/floor.jpg",
+                "alt": "powerwashing"
+            }, {
+                "src": "./img/floor_1.jpg",
+                "alt": "powerwashing"
+            }]
+        },
+        {
+            "id": "bedroom",
+            "work": "Bedroom Remodel",
+            "desc": "Need a customised solution? Call us to get an estimate for custom bedrooms made to measure and much more.",
+            "main": {
+                "before": "./img/floor_before.jpg",
+                "after": "./img/bedroom.jpg"
+            },
+            "images": [{
+                    "src": "./img/builtin.jpg",
+                    "alt": "built in"
+            }, {
+                    "src": "./img/radiator.jpg",
+                    "alt": "radiator"
+            }, {
+                    "src": "./img/shed.jpg",
+                    "alt": "shed"
+            }, {
+                    "src": "./img/bookshelf.jpg",
+                    "alt": "bookshelf"
+            }
+        ]
+        }, {
+            "id": "bathroom",
+            "work": "Bathroom & Tile Work",
+            "desc": "Adding fresh white paint to the walls and ceiling. Replacing old vynil floor for marble looing porcelain tiles.Installing customized shelves above the toilet. Upgrading bathroom vanity from single to a double sink.",
+            "main": {
+                "before": "./img/bath_before.jpg",
+                "after": "./img/bath_after.jpg"
+            },
+            "images": [{
+                    "src": "./img/backsplash.jpg",
+                    "alt": "backsplash"
+            }, {
+                    "src": "./img/tile-work.jpg",
+                    "alt": "tile"
+            }, {
+                    "src": "./img/mosaic.jpg",
+                    "alt": "mosaic"
+            },
+                {
+                    "src": "./img/bath.jpg",
+                    "alt": "bathroom"
+            }]
+        }
+    ]
+}

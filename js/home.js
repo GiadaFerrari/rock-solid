@@ -43,12 +43,6 @@ function fetchContent(id) {
 
 }
 
-function getContent(data, id) {
-    let index = data.services.findIndex(x => x.id == id);
-    let content = data.services[index]
-    console.log(content)
-    return content;
-}
 
 function fillInModal(content) {
     let modal = document.querySelector('.modal');

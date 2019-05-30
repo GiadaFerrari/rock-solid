@@ -25,6 +25,11 @@ body {
         font-size: 32px;
         text-transform: uppercase;
         color: $blue;
+
+        &.capitalized {
+            text-transform: capitalize;
+
+        }
     }
 
     h2 {
@@ -242,7 +247,7 @@ body {
         justify-content: center;
         flex-wrap: wrap;
         height: 100px;
-        padding-top: 20px;
+        padding-top: 25px;
 
 
         .tel {

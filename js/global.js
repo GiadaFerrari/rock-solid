@@ -37,6 +37,7 @@ function toggleIcon(height) {
     return src
 }
 
+
 function scrollTo(elem) {
     element = $(document).find(elem);
     var offset = $(element).offset();
@@ -45,4 +46,13 @@ function scrollTo(elem) {
     $('html,body').animate({
         scrollTop: offset.top,
     });
+}
+
+function getContent(data, id) {
+    let index = data.services.findIndex(x => x.id == id);
+    console.log(index)
+    console.log(id)
+    let content = data.services[index]
+    console.log(content)
+    return content;
 }
