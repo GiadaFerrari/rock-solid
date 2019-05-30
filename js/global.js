@@ -1,4 +1,4 @@
-let burger = $('[rel="burger"]')
+burger = $('[rel="burger"]')
 
 $(burger).click(() => {
     let height = getHeight($('[rel="menu"]'))

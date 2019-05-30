@@ -1,4 +1,4 @@
-let url = './json/modalContent.json'
+url = './json/modalContent.json'
 
 $('[rel="more-services"]').click((e) => {
     let id = e.target.getAttribute('id')
