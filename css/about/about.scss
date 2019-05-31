@@ -91,6 +91,7 @@ body {
 
                         p {
                             color: $blue;
+                            font-weight: 300;
 
                         }
 
@@ -260,13 +261,18 @@ body {
                     .review {
                         min-height: 300px;
                         background: $lightgrey;
-                        font-weight: 100;
+                        font-family: proxima-nova, sans-serif;
                         width: 50%;
                         opacity: .6;
-                        padding: 80px 25px 0;
+                        padding: 80px 10px 0;
                         line-height: 30px;
                         margin: 25px auto;
                         text-align: center;
+
+                        p {
+                            font-weight: 300;
+
+                        }
 
 
                         &.slick-current {
