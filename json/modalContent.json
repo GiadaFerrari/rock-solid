@@ -4,16 +4,17 @@
             "id": "exterior",
             "work": "Exterior Work",
             "desc": "Let us take care of your outdoors. From power washing your house to make it look like new, to replacing rotted wood, we know what your exterior needs.",
-            "specialties": ["Power washing", "Rotted Wood Repair", "Outer Deck Customisation"],
+            "specialties": ["Power washing", "Rotted Wood Repair", "Outer Deck Customization"],
             "images": [{
-                    "src": "./img/powerwash.jpg",
-                    "alt": "powerwashing"
-            }, {
-                    "src": "./img/powerwashing_logo.jpg",
-                    "alt": "powerwashing"
-            }, {
-                    "src": "./img/rotted-wood.png",
+                    "src": "./img/rotted-wood.jpg",
                     "alt": "rotted wood"
+            }, {
+                    "src": "./img/powerwash-patio.jpg",
+                    "alt": "powerwashing"
+
+            }, {
+                    "src": "./img/exterior.jpg",
+                    "alt": "powerwashing"
             },
                 {
                     "src": "./img/shed.jpg",
@@ -26,36 +27,38 @@
             "desc": "We have experiences and skills in furniture installation, hardware installation and minor house repairs.",
             "specialties": ["Sheet-rock repairs", "Faulty stairs", "Hardware installation"],
             "images": [{
-                    "src": "./img/powerwash.jpg",
-                    "alt": "powerwashing"
-            }, {
-                    "src": "./img/powerwashing_logo.jpg",
-                    "alt": "powerwashing"
-            }, {
-                    "src": "./img/rotted-wood.png",
-                    "alt": "rotted wood"
-            },
-                {
+
                     "src": "./img/shed.jpg",
                     "alt": "shed"
+            }, {
+                    "src": "./img/floor.jpg",
+                    "alt": "floor"
+
+            }, {
+                    "src": "./img/handyman.jpg",
+                    "alt": "handyman"
+            },
+                {
+                    "src": "./img/handyman-carpentry.jpg",
+                    "alt": "handyman"
             }]
         }, {
             "id": "carpentry",
             "work": "Custom Carpentry",
-            "desc": "Need a customised solution? Call us to get an estimate for custom crown moldings and trims, radiator covers made to measure and much more.",
+            "desc": "Need a customized solution? Call us to get an estimate for custom crown moldings and trims, radiator covers made to measure and much more.",
             "specialties": ["Bookshelves", "Custom built ins", "Radiator Covers"],
             "images": [{
-                    "src": "./img/builtin.jpg",
-                    "alt": "built in"
-            }, {
-                    "src": "./img/radiator.jpg",
+                    "src": "./img/radiator2.jpg",
                     "alt": "radiator"
             }, {
-                    "src": "./img/shed.jpg",
-                    "alt": "shed"
+                    "src": "./img/built-in.jpg",
+                    "alt": "built in"
             }, {
-                    "src": "./img/bookshelf.jpg",
-                    "alt": "bookshelf"
+                    "src": "./img/carpentry2.jpg",
+                    "alt": "carpentry"
+            }, {
+                    "src": "./img/entrance-carpentry.jpg",
+                    "alt": "entrance carpentry"
             }
         ]
         }, {
@@ -67,15 +70,15 @@
                     "src": "./img/backsplash.jpg",
                     "alt": "backsplash"
             }, {
-                    "src": "./img/tile-work.jpg",
+                    "src": "./img/sink-tile.jpg",
                     "alt": "tile"
             }, {
-                    "src": "./img/mosaic.jpg",
-                    "alt": "mosaic"
+                    "src": "./img/tile-floor.jpg",
+                    "alt": "floor tile"
             },
                 {
-                    "src": "./img/bath.jpg",
-                    "alt": "bathroom"
+                    "src": "./img/mosaic.jpg",
+                    "alt": "mosaic"
             }]
         }
     ]
