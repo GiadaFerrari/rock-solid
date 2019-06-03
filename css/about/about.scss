@@ -255,12 +255,32 @@ body {
                         z-index: 1;
 
                         &.slick-prev {
-                            left: -15px
+                            left: -15px;
+
+                            &:hover {
+                                &:before {
+                                    opacity: .75;
+                                }
+
+                            }
                         }
 
                         &.slick-next {
-                            right: 5px
+                            right: 5px;
+
+                            &:hover {
+                                &:before {
+                                    opacity: .75;
+                                }
+                            }
                         }
+
+                    }
+
+                    .slick-prev:before,
+                    .slick-next:before {
+                        opacity: 1;
+
                     }
 
                     .review {
@@ -287,6 +307,9 @@ body {
                             height: 350px;
                             margin: 0 auto;
                         }
+
+
+
 
                         p {
                             color: $blue;
