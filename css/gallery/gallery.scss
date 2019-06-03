@@ -1,6 +1,7 @@
 @import '../global/_global_styles';
 
-body nav ul a.tel {
+body nav ul a.tel,
+body footer .tel {
     height: 30px;
 }
 
@@ -57,6 +58,11 @@ main {
             .before_after {
                 max-width: 88%;
                 margin: 20px auto;
+            }
+
+            p {
+                margin: 20px 0;
+                line-height: 25px;
             }
 
             .images {

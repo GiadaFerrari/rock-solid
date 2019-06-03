@@ -21,18 +21,29 @@ $('[rel="gallery-link"]').click((e) => {
 
 $('[rel="modal-close"]').click(() => {
     animateModal(-1100, 0)
-    emptyModal()
+    setTimeout(emptyModal, 1500)
 })
 
 
 function animateModal(position, opacity) {
-    $('.gallery').css('opacity', opacity)
-    $('.gallery').css('z-index', opacity)
-
+    if (position == -10) {
+        console.log(1)
+        $('.gallery').css('opacity', opacity)
+        $('.gallery').css('z-index', opacity)
+    }
     $('.gallery').animate({
         'top': position,
 
     }, 1500)
+
+    if (position < -10) {
+        console.log(-1)
+
+        setTimeout(() => {
+            $('.gallery').css('opacity', opacity)
+            $('.gallery').css('z-index', opacity)
+        }, 1500)
+    }
 }
 
 function fetchContent(id) {
