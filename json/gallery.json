@@ -5,12 +5,8 @@
             "work": "Exterior Work",
             "desc": "Let us take care of your outdoors. From power washing your house to make it look like new, to replacing rotted wood, we know what your exterior needs.",
             "main": {
-                "before": "./img/powerwash-patio_before.jpeg",
-                "after": "./img/powerwash-patio_after.jpeg"
-            },
-            "main": {
-                "before": "./img/powerwash-patio_before.jpeg",
-                "after": "./img/powerwash-patio_after.jpeg"
+                "before": "./img/powerwash-patio_after3.jpg",
+                "after": "./img/powerwash-patio_before3.jpg"
             },
             "images": [{
                     "src": "./img/powerwash.jpg",
@@ -19,11 +15,11 @@
                     "src": "./img/powerwashing_logo.jpg",
                     "alt": "powerwashing"
             }, {
-                    "src": "./img/rotted-wood.png",
+                    "src": "./img/powerwash-patio2.jpg",
                     "alt": "rotted wood"
             },
                 {
-                    "src": "./img/shed.jpg",
+                    "src": "./img/powerwash-patio.jpg",
                     "alt": "shed"
             }]
         },
@@ -33,14 +29,14 @@
             "work": "Floor Installation",
             "desc": "We have experiences and skills in pre-finished installation, tile floors and more.",
             "main": {
-                "before": "./img/floor_before.jpg",
-                "after": "./img/floor_after.jpg"
+                "before": "./img/floor_after1.jpg",
+                "after": "./img/floor_before1.jpg"
             },
             "images": [{
-                "src": "./img/floor.jpg",
+                "src": "./img/floor_b1.jpg",
                 "alt": "powerwashing"
             }, {
-                "src": "./img/floor_1.jpg",
+                "src": "./img/floor_b2.jpg",
                 "alt": "powerwashing"
             }]
         },
@@ -49,43 +45,43 @@
             "work": "Bedroom Remodel",
             "desc": "Need a customised solution? Call us to get an estimate for custom bedrooms made to measure and much more.",
             "main": {
-                "before": "./img/floor_before.jpg",
-                "after": "./img/bedroom.jpg"
+                "before": "./img/bed-n.jpg",
+                "after": "./img/bed-o.jpg"
             },
             "images": [{
-                    "src": "./img/builtin.jpg",
+                    "src": "./img/bed.jpg",
                     "alt": "built in"
             }, {
-                    "src": "./img/radiator.jpg",
+                    "src": "./img/bed0.jpg",
                     "alt": "radiator"
             }, {
-                    "src": "./img/shed.jpg",
+                    "src": "./img/bed1.jpg",
                     "alt": "shed"
             }, {
-                    "src": "./img/bookshelf.jpg",
+                    "src": "./img/bed2.jpg",
                     "alt": "bookshelf"
             }
         ]
         }, {
             "id": "bathroom",
-            "work": "Bathroom & Tile Work",
-            "desc": "Adding fresh white paint to the walls and ceiling. Replacing old vynil floor for marble looing porcelain tiles.Installing customized shelves above the toilet. Upgrading bathroom vanity from single to a double sink.",
+            "work": "Bathroom Remodel",
+            "desc": "Adding fresh white paint to the walls and ceiling. Replacing old vinyl floor for marble looking porcelain tiles.Installing customized shelves above the toilet. Upgrading bathroom vanity from single to a double sink.",
             "main": {
-                "before": "./img/bath_before.jpg",
-                "after": "./img/bath_after.jpg"
+                "before": "./img/bath_after2.jpg",
+                "after": "./img/bath_before2.jpg"
             },
             "images": [{
-                    "src": "./img/backsplash.jpg",
+                    "src": "./img/toilet.jpg",
                     "alt": "backsplash"
             }, {
-                    "src": "./img/tile-work.jpg",
+                    "src": "./img/sink-tile.jpg",
                     "alt": "tile"
             }, {
-                    "src": "./img/mosaic.jpg",
+                    "src": "./img/shower1.jpg",
                     "alt": "mosaic"
             },
                 {
-                    "src": "./img/bath.jpg",
+                    "src": "./img/shower.jpg",
                     "alt": "bathroom"
             }]
         }

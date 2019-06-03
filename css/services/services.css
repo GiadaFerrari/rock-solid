@@ -290,14 +290,15 @@ body {
 @media (min-width: 700px) {
   /* line 396, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
   body main {
+    width: 85%;
     max-width: 1300px; }
-    /* line 399, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    /* line 400, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
     body main .desktop {
       display: block; }
-    /* line 403, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    /* line 404, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
     body main .mobile {
       display: none; }
-    /* line 408, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+    /* line 409, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
     body main section.services .modal {
       position: absolute;
       padding: 35px;
@@ -305,20 +306,20 @@ body {
       justify-content: space-around;
       flex-wrap: wrap;
       min-height: 68%; }
-      /* line 417, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+      /* line 418, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
       body main section.services .modal .close {
         width: 100%; }
-      /* line 423, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+      /* line 424, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
       body main section.services .modal .textContent {
         max-width: 50%; }
-      /* line 430, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+      /* line 431, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
       body main section.services .modal .images {
         width: 45%; }
-        /* line 433, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+        /* line 434, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
         body main section.services .modal .images .imgContainer {
           max-width: 48%;
           height: auto; }
-          /* line 437, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
+          /* line 438, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
           body main section.services .modal .images .imgContainer img {
             width: 100%; } }
 

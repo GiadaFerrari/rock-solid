@@ -1,5 +1,9 @@
 @import '../global/_global_styles';
 
+body nav ul a.tel {
+    height: 30px;
+}
+
 main {
     section {
         position: relative;
@@ -125,8 +129,9 @@ main {
 
             &.gallery {
                 position: static;
-                width: 100%;
+                width: 85%;
                 border: none;
+                margin: 50px auto 0;
                 box-shadow: none;
                 min-height: 800px;
 
@@ -148,6 +153,8 @@ main {
                 .before_after {
                     max-width: 60%;
                     margin: 20px;
+                    max-height: 520px;
+                    overflow: hidden;
                 }
 
 

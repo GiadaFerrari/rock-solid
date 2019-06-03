@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.646" height="23.721" viewBox="0 0 24.646 23.721">
+    <defs>
+        <style>
+            .a {
+                fill: none;
+                stroke: #7c7e7d;
+            }
+
+        </style>
+    </defs>
+    <g transform="translate(-1251.201 -984.139)">
+        <line class="a" x1="23.953" y2="23" transform="translate(1251.547 984.5)" />
+        <line class="a" x2="23.953" y2="23" transform="translate(1251.547 984.5)" />
+    </g>
+</svg>

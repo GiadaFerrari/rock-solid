@@ -70,6 +70,46 @@
                     "src": "./img/backsplash.jpg",
                     "alt": "backsplash"
             }, {
+                    "src": "./img/bath-sink.jpg",
+                    "alt": "tile"
+            }, {
+                    "src": "./img/tile-floor.jpg",
+                    "alt": "floor tile"
+            },
+                {
+                    "src": "./img/mosaic.jpg",
+                    "alt": "mosaic"
+            }]
+        },
+        {
+            "id": "floor",
+            "work": "Floors Installation",
+            "desc": "We are experienced with installing virtually any type of flooring available. Call us if you want to transform your home with partial floor repair or a complete new flooring.",
+            "specialties": ["Hardwood floor", "Tile floor", "Vinyl floor", "Mosaic", "Stone"],
+            "images": [{
+                    "src": "./img/floor_1.jpg",
+                    "alt": "hardwood floor"
+            }, {
+                    "src": "./img/floor.jpg",
+                    "alt": "tile"
+            }, {
+                    "src": "./img/tile-floor.jpg",
+                    "alt": "floor tile"
+            },
+                {
+                    "src": "./img/mosaic.jpg",
+                    "alt": "mosaic"
+            }]
+        },
+        {
+            "id": "bath",
+            "work": "Bathroom remodel",
+            "desc": "Adding fresh paint to the walls and ceiling. Replacing old floors. Installing customized shelves above the toilet. Upgrading bathroom vanities from single to a double sink.",
+            "specialties": ["Tile floor", "Wall tile", "Wall paint", "Mosaic", "Vanity installation"],
+            "images": [{
+                    "src": "./img/bath4.jpg",
+                    "alt": "hardwood floor"
+            }, {
                     "src": "./img/sink-tile.jpg",
                     "alt": "tile"
             }, {
