@@ -10,17 +10,17 @@
             },
             "images": [{
                     "src": "./img/powerwash.jpg",
-                    "alt": "powerwashing"
+                    "alt": "powerwashing stone floor"
             }, {
                     "src": "./img/powerwashing_logo.jpg",
-                    "alt": "powerwashing"
+                    "alt": "powerwashing fance"
             }, {
                     "src": "./img/powerwash-patio2.jpg",
-                    "alt": "rotted wood"
+                    "alt": "powerwashing patio"
             },
                 {
                     "src": "./img/powerwash-patio.jpg",
-                    "alt": "shed"
+                    "alt": "powerwashing patio"
             }]
         },
 
@@ -34,10 +34,10 @@
             },
             "images": [{
                 "src": "./img/floor_b1.jpg",
-                "alt": "powerwashing"
+                "alt": "floor installation"
             }, {
                 "src": "./img/floor_b2.jpg",
-                "alt": "powerwashing"
+                "alt": "floor installation"
             }]
         },
         {
@@ -50,16 +50,16 @@
             },
             "images": [{
                     "src": "./img/bed.jpg",
-                    "alt": "built in"
+                    "alt": "bedroom floor before"
             }, {
                     "src": "./img/bed0.jpg",
-                    "alt": "radiator"
+                    "alt": "bedroom floor after"
             }, {
                     "src": "./img/bed1.jpg",
-                    "alt": "shed"
+                    "alt": "bedroom bed"
             }, {
                     "src": "./img/bed2.jpg",
-                    "alt": "bookshelf"
+                    "alt": "bedroom redesigned"
             }
         ]
         }, {
@@ -72,17 +72,17 @@
             },
             "images": [{
                     "src": "./img/toilet.jpg",
-                    "alt": "backsplash"
+                    "alt": "bathroom toilet"
             }, {
                     "src": "./img/sink-tile.jpg",
-                    "alt": "tile"
+                    "alt": "bathroom vanity with new tile"
             }, {
                     "src": "./img/shower1.jpg",
-                    "alt": "mosaic"
+                    "alt": "old shower tile"
             },
                 {
                     "src": "./img/shower.jpg",
-                    "alt": "bathroom"
+                    "alt": "new shower tile"
             }]
         }
     ]
