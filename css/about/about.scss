@@ -173,7 +173,9 @@ body {
 
             &.story {
 
-
+                h1 {
+                    text-align: center;
+                }
 
                 div .logo {
                     max-width: 170px;
@@ -203,8 +205,8 @@ body {
 
             &.toGallery {
                 h2 {
-                    max-width: 60%;
-                    margin: 20px auto;
+                    max-width: 600px;
+                    margin: 50px auto 30px;
                     text-align-last: center;
                 }
 
@@ -226,6 +228,7 @@ body {
 
                     .kitchen {
                         width: 70%;
+                        margin-right: 1%;
                     }
 
                     .bedroom {
