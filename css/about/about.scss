@@ -2,7 +2,6 @@
 
 body {
 
-
     main {
         section {
             .title {
@@ -154,7 +153,13 @@ body {
 
                             p {
                                 width: 100%;
+                                display: none;
                             }
+                        }
+
+                        &.call p {
+                            display: none;
+
                         }
                     }
                 }
@@ -435,6 +440,8 @@ body {
 
                             p {
                                 width: 50%;
+                                display: block;
+
                             }
                         }
 

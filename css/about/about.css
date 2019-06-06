@@ -214,7 +214,7 @@ body {
     /* line 288, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
     body footer a img {
       margin: 0 10px;
-      height: 30px; }
+      height: 30px !important; }
     /* line 293, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
     body footer .copyright {
       font-family: proxima-nova, sans-serif;
@@ -316,32 +316,32 @@ body {
           body main section.services .modal .images .imgContainer img {
             width: 100%; } }
 
-/* line 8, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+/* line 7, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
 body main section .title {
   line-height: 70px; }
 
-/* line 15, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+/* line 14, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
 body main section.story img {
   max-width: 100%; }
 
-/* line 21, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+/* line 20, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
 body main section.toGallery h2 {
   line-height: 35px; }
 
-/* line 25, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+/* line 24, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
 body main section.toGallery p {
   margin: 15px 0; }
 
-/* line 29, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+/* line 28, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
 body main section.toGallery a.toGallery {
   display: block;
   height: auto;
   position: relative; }
-  /* line 34, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 33, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.toGallery a.toGallery img {
     max-width: 100%;
     cursor: pointer; }
-  /* line 39, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 38, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.toGallery a.toGallery span {
     position: absolute;
     display: flex;
@@ -350,15 +350,15 @@ body main section.toGallery a.toGallery {
     color: white;
     font-weight: bold;
     font-size: 17px; }
-    /* line 48, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 47, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.toGallery a.toGallery span img {
       margin-left: 10px; }
 
-/* line 57, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+/* line 56, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
 body main section.reviews .carousel {
   display: flex;
   width: 100%; }
-  /* line 61, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 60, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.reviews .carousel button {
     background: #7ac931;
     width: 40px;
@@ -366,13 +366,13 @@ body main section.reviews .carousel {
     color: white;
     min-width: 40px;
     z-index: 1; }
-    /* line 69, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 68, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.reviews .carousel button.slick-prev {
       left: -15px; }
-    /* line 73, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 72, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.reviews .carousel button.slick-next {
       right: 5px; }
-  /* line 78, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 77, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.reviews .carousel .review {
     background: #F4F4F4;
     font-weight: 100;
@@ -380,15 +380,15 @@ body main section.reviews .carousel {
     opacity: .6;
     padding: 25px;
     line-height: 20px; }
-    /* line 87, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 86, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.reviews .carousel .review.slick-current {
       width: 110%;
       opacity: 1; }
-    /* line 92, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 91, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.reviews .carousel .review p {
       color: #0B449A;
       font-weight: 300; }
-    /* line 98, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 97, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.reviews .carousel .review h6 {
       color: #0B449A;
       text-align: center;
@@ -396,100 +396,104 @@ body main section.reviews .carousel {
       letter-spacing: .5px;
       margin: 10px auto; }
 
-/* line 115, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+/* line 114, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
 body main section.contact .contact-info {
   display: flex;
   justify-content: space-between; }
-  /* line 119, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 118, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.contact .contact-info .imgContainer {
     max-width: 50%;
     height: auto; }
-    /* line 123, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 122, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.contact .contact-info .imgContainer img {
       width: 100%; }
-  /* line 128, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 127, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.contact .contact-info .info {
     width: 45%; }
 
-/* line 134, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+/* line 133, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
 body main section.contact .contact-options {
   max-width: 500px; }
-  /* line 137, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 136, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.contact .contact-options div {
     display: flex;
     min-height: 40px;
     justify-content: space-between; }
-    /* line 144, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 143, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.contact .contact-options div a button {
       height: 35px; }
-    /* line 148, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 147, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.contact .contact-options div p {
       line-height: 25px; }
-    /* line 152, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 151, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.contact .contact-options div.mail {
       flex-wrap: wrap; }
-      /* line 155, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 154, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.contact .contact-options div.mail p {
-        width: 100%; }
+        width: 100%;
+        display: none; }
+    /* line 160, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    body main section.contact .contact-options div.call p {
+      display: none; }
 
 @media (min-width: 600px) {
-  /* line 170, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 175, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section .mobile {
     display: none; }
-  /* line 177, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 182, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.story h1 {
     text-align: center; }
-  /* line 181, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 186, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.story div .logo {
     max-width: 170px;
     margin: auto; }
-  /* line 186, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 191, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.story h2 {
     line-height: 35px;
     text-align: center; }
-  /* line 191, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 196, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.story .imgContainer {
     display: none; }
-  /* line 197, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 202, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.story button {
     margin-top: 10%;
     float: right; }
-  /* line 202, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 207, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.story a {
     display: block;
     height: 60px; }
-  /* line 209, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 214, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.toGallery h2 {
     max-width: 600px;
     margin: 50px auto 30px;
     text-align-last: center; }
-  /* line 215, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 220, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.toGallery .flex {
     display: flex;
     justify-content: space-between;
     max-width: 80%;
     margin: auto; }
-    /* line 221, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 226, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.toGallery .flex p {
       margin: 30px 20px; }
-  /* line 226, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 231, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.toGallery a.toGallery {
     display: flex;
     height: 30vw;
     max-height: 310px; }
-    /* line 231, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 236, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.toGallery a.toGallery .kitchen {
       width: 70%;
       margin-right: 1%; }
-    /* line 236, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 241, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.toGallery a.toGallery .bedroom {
       width: 30%; }
-  /* line 244, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 249, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.reviews .carousel {
     display: flex;
     width: 60%;
     margin: 35px auto; }
-    /* line 249, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 254, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.reviews .carousel button {
       background: #7ac931;
       width: 40px;
@@ -497,23 +501,23 @@ body main section.contact .contact-options {
       color: white;
       min-width: 40px;
       z-index: 1; }
-      /* line 257, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 262, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.reviews .carousel button.slick-prev {
         left: -15px; }
-        /* line 261, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+        /* line 266, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
         body main section.reviews .carousel button.slick-prev:hover:before {
           opacity: .75; }
-      /* line 268, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 273, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.reviews .carousel button.slick-next {
         right: 5px; }
-        /* line 272, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+        /* line 277, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
         body main section.reviews .carousel button.slick-next:hover:before {
           opacity: .75; }
-    /* line 280, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 285, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.reviews .carousel .slick-prev:before,
     body main section.reviews .carousel .slick-next:before {
       opacity: 1; }
-    /* line 286, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 291, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.reviews .carousel .review {
       min-height: 300px;
       background: #F4F4F4;
@@ -523,20 +527,20 @@ body main section.contact .contact-options {
       padding: 80px 10px 0;
       margin: 25px auto;
       text-align: center; }
-      /* line 296, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 301, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.reviews .carousel .review p {
         font-weight: 300;
         line-height: 30px; }
-      /* line 304, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 309, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.reviews .carousel .review.slick-current {
         width: 110%;
         opacity: 1;
         height: 350px;
         margin: 0 auto; }
-      /* line 314, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 319, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.reviews .carousel .review p {
         color: #0B449A; }
-      /* line 319, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 324, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.reviews .carousel .review h6 {
         color: #0B449A;
         text-align: center;
@@ -545,11 +549,11 @@ body main section.contact .contact-options {
         margin: 30px auto; } }
 
 @media (min-width: 800px) {
-  /* line 341, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 346, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.story {
     display: flex;
     justify-content: space-between; }
-    /* line 346, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 351, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.story .imgContainer {
       display: flex;
       justify-content: center;
@@ -561,64 +565,65 @@ body main section.contact .contact-options {
       /* width: 60vw; */
       min-height: 327px;
       min-width: 440px; }
-      /* line 358, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 363, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.story .imgContainer img {
         max-width: 150%;
         max-height: 100%;
         width: auto; }
-    /* line 368, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 373, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.story button {
       margin-top: 10%;
       float: right; }
-    /* line 373, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 378, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.story a {
       display: block;
       height: 60px; }
-  /* line 382, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 387, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.toGallery a.toGallery {
     max-width: 1000px;
     margin: auto;
     display: flex;
     height: 35vh; }
-    /* line 388, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 393, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.toGallery a.toGallery .kitchen {
       width: 70%; }
-    /* line 392, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 397, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.toGallery a.toGallery .bedroom {
       width: 30%; }
-  /* line 398, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+  /* line 403, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
   body main section.contact {
     position: relative; }
-    /* line 401, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+    /* line 406, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
     body main section.contact .contact-info {
       display: flex;
       justify-content: space-between;
       max-width: 800px;
       margin: auto; }
-      /* line 407, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 412, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.contact .contact-info .imgContainer {
         max-width: 50%;
         height: auto;
         text-align: right; }
-        /* line 413, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+        /* line 418, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
         body main section.contact .contact-info .imgContainer img {
           width: 100%;
           max-with: 350px; }
-      /* line 419, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 424, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.contact .contact-info .info {
         width: 45%; }
-      /* line 427, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+      /* line 432, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
       body main section.contact .contact-info .contact-options .call,
       body main section.contact .contact-info .contact-options .mail {
         display: flex;
         justify-content: flex-start; }
-        /* line 432, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+        /* line 437, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
         body main section.contact .contact-info .contact-options .call a,
         body main section.contact .contact-info .contact-options .mail a {
           margin-right: 20px; }
-        /* line 436, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
+        /* line 441, /Users/giadaferrari/Desktop/rock_solid/css/about/about.scss */
         body main section.contact .contact-info .contact-options .call p,
         body main section.contact .contact-info .contact-options .mail p {
-          width: 50%; } }
+          width: 50%;
+          display: block; } }
 
 /*# sourceMappingURL=about.css.map */

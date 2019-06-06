@@ -214,7 +214,7 @@ body {
     /* line 288, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
     body footer a img {
       margin: 0 10px;
-      height: 30px; }
+      height: 30px !important; }
     /* line 293, /Users/giadaferrari/Desktop/rock_solid/css/global/_global_styles.scss */
     body footer .copyright {
       font-family: proxima-nova, sans-serif;
