@@ -1,6 +1,8 @@
 url = './json/modalContent.json'
 
 $('[rel="more-services"]').click((e) => {
+    emptyModal()
+
     let id = e.target.getAttribute('id')
     fetchContent(id);
     animateModal(1, 1)
